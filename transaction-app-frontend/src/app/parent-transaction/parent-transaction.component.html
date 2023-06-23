@@ -1,0 +1,22 @@
+<h2>Parent Transactions</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Sender</th>
+      <th>Receiver</th>
+      <th>Total Amount</th>
+      <th>Total Paid Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let parentTransaction of parentTransactions">
+      <td>{{ parentTransaction.id }}</td>
+      <td>{{ parentTransaction.sender }}</td>
+      <td>{{ parentTransaction.receiver }}</td>
+      <td>{{ parentTransaction.totalAmount }}</td>
+      <td>{{ calculateTotalPaidAmount(parentTransaction.id) }}</td>
+    </tr>
+  </tbody>
+</table>
