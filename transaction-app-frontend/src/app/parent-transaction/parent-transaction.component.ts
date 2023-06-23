@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ParentTransaction } from '../models/parent-transaction';
+import { ParentTransaction } from '../models/parent-transaction.model';
 import { ParentTransactionService } from '../services/parent-transaction.service';
 
 @Component({

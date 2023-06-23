@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { ParentTransaction } from '../models/parent-transaction';
+import { ParentTransaction } from '../models/parent-transaction.model';
 
 @Injectable({
   providedIn: 'root',
