@@ -1,7 +1,7 @@
 # daofab-transaction-app
 # Parent Transactions API and Frontend
 
-This GitHub repository contains a Spring Boot application that implements a REST API for fetching parent transactions from a JSON file, along with an Angular frontend application for displaying and interacting with the parent transaction data.
+This GitHub repository contains a Spring Boot application that implements a REST API for fetching parent transactions from a JSON file and an Angular frontend application for displaying and interacting with the parent transaction data.
 
 ## Implemented Features
 
@@ -18,7 +18,7 @@ This GitHub repository contains a Spring Boot application that implements a REST
 - Displays the parent transactions in a table format.
 - Supports server-side pagination for navigating through the parent transactions.
 - Enables sorting of parent transactions based on different fields.
-- Provides a clickable "Total Paid Amount" column that navigates to a separate page showing the corresponding child installment data.
+- Provides a clickable "Total Paid Amount" column to a separate page showing the corresponding child installment data.
 
 ## Technologies Used
 
@@ -58,6 +58,6 @@ This GitHub repository contains a Spring Boot application that implements a REST
 4.  The API documentation for the backend API provides detailed information about the available endpoints, request/response formats, and query parameters. It can be accessed by opening the following URL in a web browser:
 
   ```bash
-http://localhost:8080/swagger-ui.html
-# frontend
-http://localhost:4200
+   http://localhost:8080/swagger-ui.html
+   # frontend
+   http://localhost:4200
